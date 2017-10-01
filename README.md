@@ -8,110 +8,145 @@ These are the results of the tests we conducted to write our NLP Benchmark artic
 ```
 Voiic la phrse a corryjer
 ```
-* BING : NON, "voici la phrase à corner"
-* BOTFUEL : OUI "voici la phrase à corriger"
-* X SPELL : OUI "Voici la phrase a corriger"
+* ~~BING~~ : `voici la phrase à corner`
+* BOTFUEL : `voici la phrase à corriger`
+* X SPELL : `Voici la phrase a corriger`
 
 ```
 Je voayge a Pariss
 ```
-* BING : OUI, "Je voyage a paris"
-* BOTFUEL : OUI, "Je voyage a paris"
-* X SPELL : OUI, "Je voyage a Paris"
+* BING : `Je voyage a paris`
+* BOTFUEL : `Je voyage a paris`
+* X SPELL : `Je voyage a Paris`
 
-- Je veux parier sur un amtch amica Paris-Lyno
-BING : NON, "Je veux parler sur un match amical Paris-lyon"
-BOTFUEL : OUI, "Je veux parier sur un match amical Paris-lyon"
-X SPELL : OUI, “Je veux parier sur un match amical Paris-Lyon”
+```
+Je veux parier sur un amtch amica Paris-Lyno
+```
+* ~~BING~~ : `Je veux parler sur un match amical Paris-lyon`
+* BOTFUEL : `Je veux parier sur un match amical Paris-lyon`
+* X SPELL : `Je veux parier sur un match amical Paris-Lyon`
 
-- Je vais avoir selemnet vintg qatre asn dnas sept annees
-BING : OUI MAIS, "Je vais avoir seulement vingt quatre ans dans sept annees"
-BOTFUEL : OUI, “Je vais avoir seulement vingt quatre ans dans sept années"
-X SPELL : NON, “Je vais avoir seulement vingt quatre asn dnas sept annees”
+```
+Je vais avoir selemnet vintg qatre asn dnas sept annees
+```
+* BING : `Je vais avoir seulement vingt quatre ans dans sept annees`
+* BOTFUEL : `Je vais avoir seulement vingt quatre ans dans sept années`
+* X SPELL : `Je vais avoir seulement vingt quatre asn dnas sept annees`
 
-- ma carosserie est intacte
-BING : NON, "ma carrosserie est intact"
-BOTFUEL : OUI,  "ma carrosserie est intacte"
-X SPELL : OUI, “ma carrosserie est intacte”
+```
+ma carosserie est intacte
+```
+* ~~BING~~ : `ma carrosserie est intact`
+* BOTFUEL : `ma carrosserie est intacte`
+* X SPELL : `ma carrosserie est intacte`
 
-- je veux manaer ce poulet
-BING : NON, “je veux manager ce poulet”
-BOTFUEL : OUI, “je veux manger ce poulet”
-X SPELL : OUI, “je veux manger ce poulet”
+```
+je veux manaer ce poulet
+```
+* ~~BING~~ : `je veux manager ce poulet`
+* BOTFUEL : `je veux manger ce poulet`
+* X SPELL : `je veux manger ce poulet`
 
-- Domain, je mange des pâtes
-BING: NON, “domain, je mange des pâtes”
-BOTFUEL: NON “domaine, je mange des pâtes”
-X SPELL : NON, “Domain, je mange des pâtes”
-
-
-- Lontgemps, je me suis couché de bonne huere
-BING : OUI, “longtemps, je me suis couche de bonne heure”
-BOTFUEL: OUI, “longtemps, je me suis couché de bonne heure”
-X SPELL : OUI, “Longtemps, je me suis couché de bonne heur”
-
-- Ctete baguette coûte un uero
-BING : NON, “Ctete baguette coûte un uero”
-BOTFUEL: OUI, “cette baguette coûte un euro”
-X SPELL : OUI, “Cette baguette coûte un euro”
-
-- J’ai perdu un milleir d’euros
-BING : OUI, “J’ai perdu un millier d’euros”
-BOTFUEL: OUI, “J’ai perdu un millier d’euros”
-X SPELL : OUI, “J’ai perdu un millier d’euros
+```
+Domain, je mange des pâtes
+```
+* ~~BING~~: `domain, je mange des pâtes`
+* ~~BOTFUEL~~: `domaine, je mange des pâtes`
+* ~~X SPELL~~ : `Domain, je mange des pâtes`
 
 
-----EN_2----
-- hwo are yuo donig tonigth
-BING : OUI, "how are you doing tonight"
-BOTFUEL : OUI, "how are you doing tonight"
-X SPELL : OUI, “how are you doing tonight”
+```
+Lontgemps, je me suis couché de bonne huere
+```
+* BING : `longtemps, je me suis couche de bonne heure`
+* BOTFUEL: `longtemps, je me suis couché de bonne heure`
+* X SPELL : `Longtemps, je me suis couché de bonne heure`
 
-- wheer have you bene all night
-BING : OUI, “where have you been all night"
-BOTFUEL : OUI, “where have you been all night"
-XSPELL : OUI, “where have you been all night”
+```
+Ctete baguette coûte un uero
+```
+* ~~BING~~ : `Ctete baguette coûte un uero`
+* BOTFUEL: `cette baguette coûte un euro`
+* X SPELL : `Cette baguette coûte un euro`
 
-- why are yuo not here wiht us tongiht
-BING : OUI, “why are you not here with us tonight"
-BOTFUEL : OUI, "why are you not here with us tonight"
-X SPELL : OUI, “why are you not here with us tonight”
+```
+J’ai perdu un milleir d’euros
+```
+* BING : `J’ai perdu un millier d’euros`
+* BOTFUEL: `J’ai perdu un millier d’euros`
+* X SPELL : `J’ai perdu un millier d’euros`
 
-- Wat are you gonan do
-BING : OUI, “what are you gonna do”
-BOTFUEL : NON, "Wat are you conan do"
-X SPELL : OUI, “What are you gonna do”
+### EN_2
 
-- I dont knwo anythign
-BING : OUI, “I don't know anything”
-BOTFUEL : NON, “I dont know anything”
-X SPELL : OUI, “I don’t know anything”
+```
+hwo are yuo donig tonigth
+```
+* BING : `how are you doing tonight`
+* BOTFUEL : `how are you doing tonight`
+* X SPELL : `how are you doing tonight`
 
+```
+wheer have you bene all night
+```
+* BING : `where have you been all night`
+* BOTFUEL : `where have you been all night`
+* XSPELL : `where have you been all night`
 
-- I donot agre with yuo
-BING : OUI, “I do not agree with you”
-BOTFUEL : NON, “I donor are with you”
-X SPELL : OUI, “I don’t agree with you”
+```
+why are yuo not here wiht us tongiht
+```
+* BING : `why are you not here with us tonight`
+* BOTFUEL : `why are you not here with us tonight`
+* X SPELL : `why are you not here with us tonight`
 
-- I’ll leave aerlier today
-BING : OUI, “I’ll leave earlier today “
-BOTFUEL : OUI, “I’ll leave earlier today”
-X SPELL : OUI, “I’ll leave earlier today”
+```
+Wat are you gonan do
+```
+* BING : `what are you gonna do`
+* ~~BOTFUEL~~ : `Wat are you conan do`
+* X SPELL : `What are you gonna do`
 
-- I’m very hnugry today
-BING : OUI, “I’m very hungry today “
-BOTFUEL : OUI, “I’m very hungry today”
-X SPELL : OUI, “I’m very hungry today”
+```
+I dont knwo anythign
+```
+* BING : `I don't know anything`
+* BOTFUEL : `I dont know anything`
+* X SPELL : `I don’t know anything`
 
-- I finihs work at 7pm
-BING : OUI, “I finish work at 7pm”
-BOTFUEL : OUI, “I finish work at 7pm”
-X SPELL : OUI, “I finish work at 7pm”
+```
+I donot agre with yuo
+```
+* BING : `I do not agree with you`
+* ~~BOTFUEL~~ : `I donor are with you`
+* X SPELL : `I don’t agree with you`
 
-- Where can i take a braekfast
-BING : OUI, “Where can i take a breakfast “
-BOTFUEL : OUI, “Where can i take a breakfast”
-X SPELL : OUI, “Where can i take a breakfast”
+```
+I’ll leave aerlier today
+```
+* BING : `I’ll leave earlier today `
+* BOTFUEL : `I’ll leave earlier today`
+* X SPELL : `I’ll leave earlier today`
+
+```
+I’m very hnugry today
+```
+* BING : `I’m very hungry today `
+* BOTFUEL : `I’m very hungry today`
+* X SPELL : `I’m very hungry today`
+
+```
+I finihs work at 7pm
+```
+* BING : `I finish work at 7pm`
+* BOTFUEL : `I finish work at 7pm`
+* X SPELL : `I finish work at 7pm`
+
+```
+Where can i take a braekfast
+```
+* BING : `Where can i take a breakfast`
+* BOTFUEL : `Where can i take a breakfast`
+* X SPELL : `Where can i take a breakfast`
 
 --------------------------------------------------
 
@@ -130,8 +165,8 @@ FR
 10 - Hier midi j'ai mange avec Jean, Andrew, Andreas, Kumiko et Abdullah
 11 - Nous avons marche sur 5 kilometres
 12 - J'aimerais parier 100€ sur le match de demain entre Paris et Lyon
-Recast:.ai:
 
+Recast:.ai:
 FR1 Time NOT OK
 FR2 City OK | Time NOT OK
 FR3 Color OK | Quantity NOT REC
