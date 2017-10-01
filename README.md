@@ -165,103 +165,103 @@ Where can i take a braekfast
 12. J'aimerais parier 100€ sur le match de demain entre Paris et Lyon
 
 #### Recast:.ai
-FR1 Time NOT OK
-FR2 City OK | Time NOT OK
-FR3 Color OK | Quantity NOT REC
-FR4 Quantity NOT REC
-FR5 Time OK | Address OK
-FR6 Quantity NOT REC | Time OK | Quantity NOT REC
-FR7 Quantity NOT REC | Volume OK | Quantity NOT REC | Area NOT OK
-FR8 Time OK | Percent OK | Money NOT OK | Money NOT OK
-FR9 Money NOT OK
-FR10 Time OK | Forename OK (x5)
-FR11 Distance OK
-FR12 Money OK | Time NOT OK | City OK | City OK
+1. Time NOT OK
+2. City OK | Time NOT OK
+3. Color OK | Quantity NOT REC
+4. Quantity NOT REC
+5. Time OK | Address OK
+6. Quantity NOT REC | Time OK | Quantity NOT REC
+7. Quantity NOT REC | Volume OK | Quantity NOT REC | Area NOT OK
+8. Time OK | Percent OK | Money NOT OK | Money NOT OK
+9. Money NOT OK
+10. Time OK | Forename OK (x5)
+11. Distance OK
+12. Money OK | Time NOT OK | City OK | City OK
 
 #### Wit.ai
-FR1 Time OK
-FR2 City OK | Time OK
-FR3 Color NOT REC | Quantity NOT OK
-FR4 Quantity NOT OK
-FR5 Time OK | Address NOT OK
-FR6 Quantity NOT OK | Time OK | Quantity NOT OK
-FR7 Quantity NOT OK | Volume NOT OK | Quantity NOT OK | Area NOT OK
-FR8 Time OK | Percent NOT OK | Money OK | Money OK
-FR9 Money OK
-FR10 Time OK | Forename NOT OK (⅖)
-FR11 Distance OK |
-FR12 Money OK | Time OK | City NOT OK | City NOT OK
+1. Time OK
+2. City OK | Time OK
+3. Color NOT REC | Quantity NOT OK
+4. Quantity NOT OK
+5. Time OK | Address NOT OK
+6. Quantity NOT OK | Time OK | Quantity NOT OK
+7. Quantity NOT OK | Volume NOT OK | Quantity NOT OK | Area NOT OK
+8. Time OK | Percent NOT OK | Money OK | Money OK
+9. Money OK
+10. Time OK | Forename NOT OK (⅖)
+11. Distance OK |
+12 Money OK | Time OK | City NOT OK | City NOT OK
 
 #### LUIS
 
-FR1 Time NOT OK
-FR2 City NOT REC | Interval NOT OK
-FR3 Color NOT REC | Quantity NOT REC
-FR4 Quantity NOT REC
-FR5 Time NOT OK | Address NOT REC
-FR6 Quantity NOT REC | Time NOT OK | Quantity NOT REC
-FR7 Quantity NOT REC | Volume NOT OK | Quantity NOT REC | Area NOT OK
-FR8 Time NOT OK | Percent NOT OK | Money NOT OK | Money NOT OK
-FR9 Money NOT OK
-FR10 Time NOT OK | Forename NOT REC (x5)
-FR11 Distance NOT OK
-FR12 Money OK | Time NOT OK | City NOT REC | City NOT REC
+1. Time NOT OK
+2. City NOT REC | Interval NOT OK
+3. Color NOT REC | Quantity NOT REC
+4. Quantity NOT REC
+5. Time NOT OK | Address NOT REC
+6. Quantity NOT REC | Time NOT OK | Quantity NOT REC
+7. Quantity NOT REC | Volume NOT OK | Quantity NOT REC | Area NOT OK
+8. Time NOT OK | Percent NOT OK | Money NOT OK | Money NOT OK
+9. Money NOT OK
+10. Time NOT OK | Forename NOT REC (x5)
+11. Distance NOT OK
+12. Money OK | Time NOT OK | City NOT REC | City NOT REC
 
 #### SNIPS
-FR1 Time OK
-FR2 City NOT REC | Interval OK
-FR3 Color NOT REC | Quantity NOT REC
-FR4 Quantity NOT REC
-FR5 Time NOT OK | Address NOT REC
-FR6 Quantity NOT REC | Time NOT OK | Quantity NOT REC
-FR7 Quantity NOT REC | Volume NOT REC | Quantity NOT REC | Area NOT REC
-FR8 Time NOT OK | Percent NOT REC | Money NOT REC (x2)
-FR9 Money NOT OK
-FR10 Time OK | Forename NOT REC (x5)
-FR11 Distance NOT REC
-FR12 Money NOT REC | Time NOT OK | City NOT REC | City NOT REC
+1. Time OK
+2. City NOT REC | Interval OK
+3. Color NOT REC | Quantity NOT REC
+4. Quantity NOT REC
+5. Time NOT OK | Address NOT REC
+6. Quantity NOT REC | Time NOT OK | Quantity NOT REC
+7. Quantity NOT REC | Volume NOT REC | Quantity NOT REC | Area NOT REC
+8. Time NOT OK | Percent NOT REC | Money NOT REC (x2)
+9. Money NOT OK
+10. Time OK | Forename NOT REC (x5)
+11. Distance NOT REC
+12. Money NOT REC | Time NOT OK | City NOT REC | City NOT REC
 
 #### API.ai
-FR1 Time OK
-FR2 City OK | Interval NOT OK
-FR3 Color OK | Quantity NOT REC
-FR4 Quantity NOT REC (Number OK)
-FR5 Time NOT OK | Address OK
-FR6 Quantity NOT REC (Number OK) | Time OK | Quantity NOT REC
-FR7 Quantity NOT REC | Volume OK | Quantity NOT REC | Area OK
-FR8 Time NOT OK | Percent OK | Money NOT OK | Money OK
-FR9 Money OK
-FR10 Time NOT OK | Forename OK (x5)
-FR11 Distance NOT OK
-FR12 Money OK | Time OK | City OK | City OK
+1. Time OK
+2. City OK | Interval NOT OK
+3. Color OK | Quantity NOT REC
+4. Quantity NOT REC (Number OK)
+5. Time NOT OK | Address OK
+6. Quantity NOT REC (Number OK) | Time OK | Quantity NOT REC
+7. Quantity NOT REC | Volume OK | Quantity NOT REC | Area OK
+8. Time NOT OK | Percent OK | Money NOT OK | Money OK
+9. Money OK
+10. Time NOT OK | Forename OK (x5)
+11. Distance NOT OK
+12. Money OK | Time OK | City OK | City OK
 
 #### IBM
-FR1 Time OK
-FR2 Interval OK (Time OK | TIme OK) | City NOT OK
-FR3 Quantity NOT REC (Number OK) | Color NOT OK.
-FR4 Quantity NOT REC (Number OK)
-FR5 Time NOT OK | Address NOT OK
-FR6 Qantity NOt REC | Time OK | Quantity NOT REC
-FR7 Quantity NOT REC | Volume NOT REC | Quantity NOT REC | Area NOT REC
-FR8 Time OK | Percent NOT OK | Money NOT OK | Money NOT OK
-FR9 Money NOT OK
-FR10 Time OK | Forename NOT REC (x5)
-FR11 Distance NOT REC
-FR12 Money NOT OK | Time OK | City NOT OK | City NOT OK
+1. Time OK
+2. Interval OK (Time OK | TIme OK) | City NOT OK
+3. Quantity NOT REC (Number OK) | Color NOT OK.
+4. Quantity NOT REC (Number OK)
+5. Time NOT OK | Address NOT OK
+6. Qantity NOt REC | Time OK | Quantity NOT REC
+7. Quantity NOT REC | Volume NOT REC | Quantity NOT REC | Area NOT REC
+8. Time OK | Percent NOT OK | Money NOT OK | Money NOT OK
+9. Money NOT OK
+10. Time OK | Forename NOT REC (x5)
+11. Distance NOT REC
+12. Money NOT OK | Time OK | City NOT OK | City NOT OK
 
 #### Botfuel
-FR1 Time OK
-FR2 Time NOT OK | Location OK
-FR3 Quantity OK | Color OK
-FR4 Quantity OK
-FR5 Interval OK | Address OK
-FR6 Quantity OK | Time OK | Quantity OK
-FR7 Quantity OK | Volume OK | Quantity OK | Area OK
-FR8 Time OK | Percentage OK | Money NOT OK | Money OK
-FR9 Money OK
-FR10 Time OK | Forename OK (x5)
-FR11 Distance OK
-FR12 Money OK | Time OK | City OK
+1. Time OK
+2. Time NOT OK | Location OK
+3. Quantity OK | Color OK
+4. Quantity OK
+5. Interval OK | Address OK
+6. Quantity OK | Time OK | Quantity OK
+7. Quantity OK | Volume OK | Quantity OK | Area OK
+8. Time OK | Percentage OK | Money NOT OK | Money OK
+9. Money OK
+10. Time OK | Forename OK (x5)
+11. Distance OK
+12. Money OK | Time OK | City OK
 
 ### EN
 1. I am leaving tomorrow at 5am for Los Angeles
@@ -278,116 +278,116 @@ FR12 Money OK | Time OK | City OK
 12. I want to book two plane tickets to Madrid tomorrow.
 
 #### Recast.ai
-EN1 Time OK | Location OK
-EN2 Address OK
-EN3 Address OK
-EN4 Time NOT OK
-EN5 Time OK | Money OK
-EN6 Time NOT OK | City OK
-EN7 Time NOT OK
-EN8 Time NOT OK | City OK
-EN9 Money NOT OK
-EN10 Money OK | Set (per month) OK | Location OK
-EN11 Quantity NOT REC | Time OK | Location OK
-EN12 Quantity NOT REC (recognized a number) | Location OK | Time OK
+1. Time OK | Location OK
+2. Address OK
+3. Address OK
+4. Time NOT OK
+5. Time OK | Money OK
+6. Time NOT OK | City OK
+7. Time NOT OK
+8. Time NOT OK | City OK
+9. Money NOT OK
+10. Money OK | Set (per month) OK | Location OK
+11. Quantity NOT REC | Time OK | Location OK
+12. Quantity NOT REC (recognized a number) | Location OK | Time OK
 
 #### Wit.ai
-EN1 Time OK | Location OK
-EN2 Address OK
-EN3 Address OK
-EN4 Interval OK
-EN5 Time OK | Money OK
-EN6 Time OK | City OK
-EN7 Time OK
-EN8 Time OK | City OK
-EN9 Money OK
-EN10 Money OK | Set (per month) NOT REC | Location OK
-EN11 Quantity NOT OK | Duration OK | Location OK
-EN12 Quantity NOT OK | Location OK | Time OK
+1. Time OK | Location OK
+2. Address OK
+3. Address OK
+4. Interval OK
+5. Time OK | Money OK
+6. Time OK | City OK
+7. Time OK
+8. Time OK | City OK
+9. Money OK
+10. Money OK | Set (per month) NOT REC | Location OK
+11. Quantity NOT OK | Duration OK | Location OK
+12. Quantity NOT OK | Location OK | Time OK
 
 #### LUIS
-EN1 Time OK | Location OK
-EN2 Address NOT OK
-EN3 Address NOT OK
-EN4 Interval OK
-EN5 Time OK | Money OK
-EN6 Time NOT OK | City OK
-EN7 Time OK
-EN8 Time NOT OK | City OK
-EN9 Money NOT OK
-EN10 Money OK | Set (per month) NOT REC | Location OK
-EN11 Quantity  NOT REC | Duration OK | Location OK
-EN12 Number OK | Location NOT OK | Datetime OK
+1. Time OK | Location OK
+2. Address NOT OK
+3. Address NOT OK
+4. Interval OK
+5. Time OK | Money OK
+6. Time NOT OK | City OK
+7. Time OK
+8. Time NOT OK | City OK
+9. Money NOT OK
+10. Money OK | Set (per month) NOT REC | Location OK
+11. Quantity  NOT REC | Duration OK | Location OK
+12. Number OK | Location NOT OK | Datetime OK
 
 #### SNIPS
-EN1 Time OK | Location NOT REC
-EN2 Address NOT REC
-EN3 Address NOT REC
-EN4 Interval NOT OK
-EN5 Time OK | Money OK
-EN6 Time OK | City NOT REC
-EN7 Time OK
-EN8 Time OK | City NOT REC
-EN9 Money OK
-EN10 Money OK | Set (per month) NOT REC | Location NOT REC
-EN11 Quantity NOT REC |Duration NOT OK | Location NOT REC
-EN12 (Quantity NOT REC) Number OK | Location NOT REC | Datetime OK
+1. Time OK | Location NOT REC
+2. Address NOT REC
+3. Address NOT REC
+4. Interval NOT OK
+5. Time OK | Money OK
+6. Time OK | City NOT REC
+7. Time OK
+8. Time OK | City NOT REC
+9. Money OK
+10. Money OK | Set (per month) NOT REC | Location NOT REC
+11. Quantity NOT REC |Duration NOT OK | Location NOT REC
+12. (Quantity NOT REC) Number OK | Location NOT REC | Datetime OK
 
 #### API.ai
-EN1 Time OK | Location OK
-EN2 Address OK
-EN3 Address OK
-EN4 Interval OK
-EN5 Time OK | Money OK
-EN6 Time NOT OK | City OK
-EN7 Time OK
-EN8 Time OK | City OK
-EN9 Money OK
-EN10 Money OK | Set (per month) NOT REC | City OK
-EN11 Quantity NOT REC (Number OK)  | Duration OK | City OK
-EN12 Quantity NOT REC (Number OK) | City OK | Time OK
+1. Time OK | Location OK
+2. Address OK
+3. Address OK
+4. Interval OK
+5. Time OK | Money OK
+6. Time NOT OK | City OK
+7. Time OK
+8. Time OK | City OK
+9. Money OK
+10. Money OK | Set (per month) NOT REC | City OK
+11. Quantity NOT REC (Number OK)  | Duration OK | City OK
+12. Quantity NOT REC (Number OK) | City OK | Time OK
 
 #### IBM
-EN1 Time OK | Location OK
-EN2 Address NOT OK
-EN3 Address NOT OK
-EN4 Interval OK
-EN5 Time OK | Money OK
-EN6 Time OK | City OK
-EN7 Time NOT OK
-EN8 Time NOT OK | City OK
-EN9 Money OK
-EN10 Money OK | Set (per month) NOT REC | Location OK
-EN11 Quantity NOT REC | Interval NOT OK | Location OK
-EN12 Quantity NOR REC (Number NOT OK) | Location OK | Time OK
+1. Time OK | Location OK
+2. Address NOT OK
+3. Address NOT OK
+4. Interval OK
+5. Time OK | Money OK
+6. Time OK | City OK
+7. Time NOT OK
+8. Time NOT OK | City OK
+9. Money OK
+10. Money OK | Set (per month) NOT REC | Location OK
+11. Quantity NOT REC | Interval NOT OK | Location OK
+12. Quantity NOR REC (Number NOT OK) | Location OK | Time OK
 
 #### Amazon Lex
-EN1 Time OK | City OK
-EN2 Address OK
-EN3 Address OK
-EN4 Duration NOT OK
-EN5 Time OK | Money NOT REC
-EN6 Time NOT OK | City OK
-EN7 Time OK
-EN8 Time OK | City OK
-EN9 Money NOT REC
-EN10 Money NOT REC | Set (per month) NOT REC | City OK
-EN11 Quantity NOT REC | Duration OK | City OK
-EN12 Quantity NOT OK (Number NOT OK) | City OK | Date OK
+1. Time OK | City OK
+2. Address OK
+3. Address OK
+4. Duration NOT OK
+5. Time OK | Money NOT REC
+6. Time NOT OK | City OK
+7. Time OK
+8. Time OK | City OK
+9. Money NOT REC
+10. Money NOT REC | Set (per month) NOT REC | City OK
+11. Quantity NOT REC | Duration OK | City OK
+12. Quantity NOT OK (Number NOT OK) | City OK | Date OK
 
 #### Botfuel
-EN1 Time OK | City OK
-EN2 Address OK
-EN3 Address OK
-EN4 Interval OK
-EN5 Time OK | Money OK
-EN6 Time OK | City OK
-EN7 Interval OK
-EN8 Time OK | City OK
-EN9 Money OK
-EN10 Money OK | Set (per month) NOT REC | City OK
-EN11 Quantity NOT OK | Time OK | City OK
-EN12 Quantity NOT OK | City OK | Time OK
+1. Time OK | City OK
+2. Address OK
+3. Address OK
+4. Interval OK
+5. Time OK | Money OK
+6. Time OK | City OK
+7. Interval OK
+8. Time OK | City OK
+9. Money OK
+10. Money OK | Set (per month) NOT REC | City OK
+11. Quantity NOT OK | Time OK | City OK
+12. Quantity NOT OK | City OK | Time OK
 
 
 ## Spell-checking and Entity Extraction:
