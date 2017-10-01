@@ -396,210 +396,210 @@ Where can i take a braekfast
 ```
 I am leaving tomorro at 5am for Lo Angeles
 ```
-Botfuel : Time OK
-Microsoft : Time OK
-Recast : Time NOT OK (5am)
-API.AI : Time NOT OK
-SNIPS : Time NOT OK
-Lex : Time OK
-Wit : NO
-IBM : NO
+* Botfuel : Time OK
+* Microsoft : Time OK
+* Recast : Time NOT OK (5am)
+* API.AI : Time NOT OK
+* SNIPS : Time NOT OK
+* Lex : Time OK
+* Wit : NO
+* IBM : NO
 
 ```
 Yestrday at 8pm, I was eating 10 dlolars worth of chocolate
 ```
-Botfuel : Time OK
-Microsoft : Time OK
-Recast : Time NOT OK (8pm)
-API.AI : Time NOT OK (8pm)
-Snips : Time NOT OK
-Lex : Time NOT OK
-Wit : NO
-IBM : NO
+* Botfuel : Time OK
+* Microsoft : Time OK
+* Recast : Time NOT OK (8pm)
+* API.AI : Time NOT OK (8pm)
+* Snips : Time NOT OK
+* Lex : Time NOT OK
+* Wit : NO
+* IBM : NO
 
 ```
 I want to book two plane tickets to Madrid tomorow.
 ```
-Botfuel : OK
-Microsoft : OK
-Recast : NO (spell failed)
-API.AI : OK
-Lex : OK
-Snips : OK
-Wit : OK
-IBM : NO
+* Botfuel : OK
+* Microsoft : OK
+* Recast : NO (spell failed)
+* API.AI : OK
+* Lex : OK
+* Snips : OK
+* Wit : OK
+* IBM : NO
 
 ```
 At eight o’clck, I need someone to keep my dog.
 ```
-Botfuel : OK
-Recast : NO
-Microsoft : OK
-API.AI : NO
-Lex : NO
-Snips : NO
-Wit : OK
-IBM : OK
+* Botfuel : OK
+* Recast : NO
+* Microsoft : OK
+* API.AI : NO
+* Lex : NO
+* Snips : NO
+* Wit : OK
+* IBM : OK
 
 ```
 Next moday, I won’t be home
 ```
-Botfuel : NO (spell failed)
-Microsoft : OK
-Recast : NO
-API.AI : NO
-Lex : NO
-Snips : NO
-Wit : NO
-IBM : NO
+* Botfuel : NO (spell failed)
+* Microsoft : OK
+* Recast : NO
+* API.AI : NO
+* Lex : NO
+* Snips : NO
+* Wit : NO
+* IBM : NO
 
 ```
 I will need a car in two hoaurs
 ```
-Botfuel : NO (entity failed)
-Microsoft : OK
-Recast : NO
-API.AI : NO
-Lex : NO
-Snips : NO
-Wit : NO
-IBM : NO
+* Botfuel : NO (entity failed)
+* Microsoft : OK
+* Recast : NO
+* API.AI : NO
+* Lex : NO
+* Snips : NO
+* Wit : NO
+* IBM : NO
 
 ```
 I need to a plane ticket for the 3rd Agust
 ```
-Botfuel : OK
-Microsoft : NO (spell failed)
-Recast : NO
-API.AI : OK
-Lex : NO
-Snips : NO
-Wit : OK
-IBM : NO
+* Botfuel : OK
+* Microsoft : NO (spell failed)
+* Recast : NO
+* API.AI : OK
+* Lex : NO
+* Snips : NO
+* Wit : OK
+* IBM : NO
 
 ```
 I leave the town next mounth
 ```
-Botfuel : NO (spell failed)
-Microsoft : NO (entity failed)
-Recast : NO
-API.AI : NO
-Lex : NO
-Snips : NO
-Wit : NO
-IBM : NO
+* Botfuel : NO (spell failed)
+* Microsoft : NO (entity failed)
+* Recast : NO
+* API.AI : NO
+* Lex : NO
+* Snips : NO
+* Wit : NO
+* IBM : NO
 
 ```
 I won’t be there on satrday
 ```
-Botfuel : OK
-Microsoft : OK
-Recast : NO
-API.AI : NO
-Lex : NO
-Snips : NO
-Wit : NO
-IBM : NO
+* Botfuel : OK
+* Microsoft : OK
+* Recast : NO
+* API.AI : NO
+* Lex : NO
+* Snips : NO
+* Wit : NO
+* IBM : NO
 
 ```
 I will come back at nin o’clock
 ```
-Botfuel : NO (spell failed)
-Microsoft : OK
-Recast : NO
-API.AI : NO
-Lex : NO
-Snips : NO
-Wit : NO
-IBM : NO
+* Botfuel : NO (spell failed)
+* Microsoft : OK
+* Recast : NO
+* API.AI : NO
+* Lex : NO
+* Snips : NO
+* Wit : NO
+* IBM : NO
 
 ### FR
 ```
 Je pars deman à 5h pour Los Angeles
 ```
-Botfuel : OK
-Recast : NO
-API.AI : OK
-Wit : NO
-IBM :NO
+* Botfuel : OK
+* Recast : NO
+* API.AI : OK
+* Wit : NO
+* IBM :NO
 
 ```
 Hir à 8h, j’ai mangé pour 10 dollars de chocolat
 ```
-Botfuel : NO (spell failed)
-Recast : NO
-API.AI : NO
-Wit : NO
-IBM :NO
+* Botfuel : NO (spell failed)
+* Recast : NO
+* API.AI : NO
+* Wit : NO
+* IBM :NO
 
 ```
 Je voudrais réserver deux billets d’avion pour Madrid domain
 ```
-Botfuel : NO (spell failed)
-Recast : NO
-API.AI : NO
-Wit : NO
-IBM :NO
+* Botfuel : NO (spell failed)
+* Recast : NO
+* API.AI : NO
+* Wit : NO
+* IBM :NO
 
 ```
 À huit heuures, j’ai besoin de quelqu’un pour garder mon chien
 ```
-Botfuel : OK
-Recast : NO
-API.AI : NO
-Wit : NO
-IBM : OK
+* Botfuel : OK
+* Recast : NO
+* API.AI : NO
+* Wit : NO
+* IBM : OK
 
 ```
 Ludi prochain, je ne serai pas à la maison
 ```
-Botfuel : NO (spell failed)
-Recast : NO
-API.AI : NO
-Wit : NO
-IBM :NO
+* Botfuel : NO (spell failed)
+* Recast : NO
+* API.AI : NO
+* Wit : NO
+* IBM :NO
 
 ```
 j’aurai besoin d’une voiture dans deux heurs
 ```
-Botfuel : NO (spell failed)
-Recast : NO
-API.AI : NO
-Wit : NO
-IBM :NO
+* Botfuel : NO (spell failed)
+* Recast : NO
+* API.AI : NO
+* Wit : NO
+* IBM :NO
 
 ```
 j’ai besoin d’un ticket d’avion pour le 3 out
 ```
-Botfuel : NO (spell failed)
-Recast : NO
-API.AI : NO
-Wit : OK
-IBM :NO
+* Botfuel : NO (spell failed)
+* Recast : NO
+* API.AI : NO
+* Wit : OK
+* IBM :NO
 
 ```
 Je quitte la ville le mois prochin
 ```
-Botfuel : OK
-Recast : NO
-API.AI : NO
-Wit : NO
-IBM :NO
+* Botfuel : OK
+* Recast : NO
+* API.AI : NO
+* Wit : NO
+* IBM :NO
 
 ```
 Je ne serai pas là ce samdi
 ```
-Botfuel : OK
-Recast : NO
-API.AI : NO
-Wit : NO
-IBM :NO
+* Botfuel : OK
+* Recast : NO
+* API.AI : NO
+* Wit : NO
+* IBM :NO
 
 ```
 Je reviendrai à neuf hures
 ```
-Botfuel : OK
-Recast : NO
-API.AI : NO
-Wit : NO
-IBM : OK
+* Botfuel : OK
+* Recast : NO
+* API.AI : NO
+* Wit : NO
+* IBM : OK
