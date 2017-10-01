@@ -148,25 +148,23 @@ Where can i take a braekfast
 * BOTFUEL : `Where can i take a breakfast`
 * X SPELL : `Where can i take a breakfast`
 
---------------------------------------------------
+## Entity Extractor
 
-Entity Extractor:
+### FR
+1. Je veux partir demain matin a 8h.
+2. Je serais a Paris de 8h ce soir jusqu'a 15h demain.
+3. Je veux acheter une voiture rose.
+4. Je voudrais deux croissants.
+5. J'ai rendez-vous demain entre 14h et 15h au 9 rue Dareau a Paris.
+6. Je veux une salle pour demain 7h avec 3 chaises.
+7. Il me faut un moteur de 50 cm3 pour couvrir le terrain avec une bache de 10m sur 3.
+8. Aujourd'hui le cours du dollar a chute de 15%, pour atteindre 1 dollars et 27 cents pour 1 euro.
+9. Sa fortune est estimee a trois milliards 5 cent quarante sept million deux dollar
+10. Hier midi j'ai mange avec Jean, Andrew, Andreas, Kumiko et Abdullah
+11. Nous avons marche sur 5 kilometres
+12. J'aimerais parier 100€ sur le match de demain entre Paris et Lyon
 
-FR
-1 - Je veux partir demain matin a 8h.
-2 - Je serais a Paris de 8h ce soir jusqu'a 15h demain.
-3 - Je veux acheter une voiture rose.
-4 - Je voudrais deux croissants.
-5 - J'ai rendez-vous demain entre 14h et 15h au 9 rue Dareau a Paris.
-6 - Je veux une salle pour demain 7h avec 3 chaises.
-7 - Il me faut un moteur de 50 cm3 pour couvrir le terrain avec une bache de 10m sur 3.
-8 - Aujourd'hui le cours du dollar a chute de 15%, pour atteindre 1 dollars et 27 cents pour 1 euro.
-9 - Sa fortune est estimee a trois milliards 5 cent quarante sept million deux dollar
-10 - Hier midi j'ai mange avec Jean, Andrew, Andreas, Kumiko et Abdullah
-11 - Nous avons marche sur 5 kilometres
-12 - J'aimerais parier 100€ sur le match de demain entre Paris et Lyon
-
-Recast:.ai:
+#### Recast:.ai
 FR1 Time NOT OK
 FR2 City OK | Time NOT OK
 FR3 Color OK | Quantity NOT REC
@@ -180,7 +178,7 @@ FR10 Time OK | Forename OK (x5)
 FR11 Distance OK
 FR12 Money OK | Time NOT OK | City OK | City OK
 
-Wit.ai:
+#### Wit.ai
 FR1 Time OK
 FR2 City OK | Time OK
 FR3 Color NOT REC | Quantity NOT OK
@@ -194,7 +192,7 @@ FR10 Time OK | Forename NOT OK (⅖)
 FR11 Distance OK |
 FR12 Money OK | Time OK | City NOT OK | City NOT OK
 
-LUIS:
+#### LUIS
 
 FR1 Time NOT OK
 FR2 City NOT REC | Interval NOT OK
@@ -208,8 +206,8 @@ FR9 Money NOT OK
 FR10 Time NOT OK | Forename NOT REC (x5)
 FR11 Distance NOT OK
 FR12 Money OK | Time NOT OK | City NOT REC | City NOT REC
-SNIPS:
 
+#### SNIPS
 FR1 Time OK
 FR2 City NOT REC | Interval OK
 FR3 Color NOT REC | Quantity NOT REC
@@ -223,8 +221,7 @@ FR10 Time OK | Forename NOT REC (x5)
 FR11 Distance NOT REC
 FR12 Money NOT REC | Time NOT OK | City NOT REC | City NOT REC
 
-API.ai:
-
+#### API.ai
 FR1 Time OK
 FR2 City OK | Interval NOT OK
 FR3 Color OK | Quantity NOT REC
@@ -238,8 +235,7 @@ FR10 Time NOT OK | Forename OK (x5)
 FR11 Distance NOT OK
 FR12 Money OK | Time OK | City OK | City OK
 
-IBM:
-
+#### IBM
 FR1 Time OK
 FR2 Interval OK (Time OK | TIme OK) | City NOT OK
 FR3 Quantity NOT REC (Number OK) | Color NOT OK.
@@ -253,8 +249,7 @@ FR10 Time OK | Forename NOT REC (x5)
 FR11 Distance NOT REC
 FR12 Money NOT OK | Time OK | City NOT OK | City NOT OK
 
-Botfuel:
-
+#### Botfuel
 FR1 Time OK
 FR2 Time NOT OK | Location OK
 FR3 Quantity OK | Color OK
@@ -268,22 +263,21 @@ FR10 Time OK | Forename OK (x5)
 FR11 Distance OK
 FR12 Money OK | Time OK | City OK
 
-EN
-1 - I am leaving tomorrow at 5am for Los Angeles
-2 - I am going to 142 Pleasance street Edinburgh
-3 - I live on 3436 Aylmer St Montreal
-4 - I ate chocolate for the last 2 hours
-5 - Yesterday at 8pm, I was eating 10 dollars worth of chocolate
-6 - In two weeks I will be in Paris
-7 - Where will you be this summer
-8 - 2 days after tomorrow, I will leave Moscow
-9 - This item costs 3 dollars and 55 cents
-10 - I pay 1000 dollars per month for my flat in Washington DC.
-11 - I need to rent a car for two weeks near Berlin.
-12 - I want to book two plane tickets to Madrid tomorrow.
+### EN
+1. I am leaving tomorrow at 5am for Los Angeles
+2. I am going to 142 Pleasance street Edinburgh
+3. I live on 3436 Aylmer St Montreal
+4. I ate chocolate for the last 2 hours
+5. Yesterday at 8pm, I was eating 10 dollars worth of chocolate
+6. In two weeks I will be in Paris
+7. Where will you be this summer
+8. 2 days after tomorrow, I will leave Moscow
+9. This item costs 3 dollars and 55 cents
+10. I pay 1000 dollars per month for my flat in Washington DC.
+11. I need to rent a car for two weeks near Berlin.
+12. I want to book two plane tickets to Madrid tomorrow.
 
-Recast.ai:
-
+#### Recast.ai
 EN1 Time OK | Location OK
 EN2 Address OK
 EN3 Address OK
@@ -297,8 +291,7 @@ EN10 Money OK | Set (per month) OK | Location OK
 EN11 Quantity NOT REC | Time OK | Location OK
 EN12 Quantity NOT REC (recognized a number) | Location OK | Time OK
 
-Wit.ai:
-
+#### Wit.ai
 EN1 Time OK | Location OK
 EN2 Address OK
 EN3 Address OK
@@ -312,8 +305,7 @@ EN10 Money OK | Set (per month) NOT REC | Location OK
 EN11 Quantity NOT OK | Duration OK | Location OK
 EN12 Quantity NOT OK | Location OK | Time OK
 
-LUIS:
-
+#### LUIS
 EN1 Time OK | Location OK
 EN2 Address NOT OK
 EN3 Address NOT OK
@@ -327,8 +319,7 @@ EN10 Money OK | Set (per month) NOT REC | Location OK
 EN11 Quantity  NOT REC | Duration OK | Location OK
 EN12 Number OK | Location NOT OK | Datetime OK
 
-SNIPS:
-
+#### SNIPS
 EN1 Time OK | Location NOT REC
 EN2 Address NOT REC
 EN3 Address NOT REC
@@ -342,8 +333,7 @@ EN10 Money OK | Set (per month) NOT REC | Location NOT REC
 EN11 Quantity NOT REC |Duration NOT OK | Location NOT REC
 EN12 (Quantity NOT REC) Number OK | Location NOT REC | Datetime OK
 
-API.ai:
-
+#### API.ai
 EN1 Time OK | Location OK
 EN2 Address OK
 EN3 Address OK
@@ -357,8 +347,7 @@ EN10 Money OK | Set (per month) NOT REC | City OK
 EN11 Quantity NOT REC (Number OK)  | Duration OK | City OK
 EN12 Quantity NOT REC (Number OK) | City OK | Time OK
 
-IBM:
-
+#### IBM
 EN1 Time OK | Location OK
 EN2 Address NOT OK
 EN3 Address NOT OK
@@ -372,8 +361,7 @@ EN10 Money OK | Set (per month) NOT REC | Location OK
 EN11 Quantity NOT REC | Interval NOT OK | Location OK
 EN12 Quantity NOR REC (Number NOT OK) | Location OK | Time OK
 
-Amazon Lex:
-
+#### Amazon Lex
 EN1 Time OK | City OK
 EN2 Address OK
 EN3 Address OK
@@ -387,8 +375,7 @@ EN10 Money NOT REC | Set (per month) NOT REC | City OK
 EN11 Quantity NOT REC | Duration OK | City OK
 EN12 Quantity NOT OK (Number NOT OK) | City OK | Date OK
 
-Botfuel:
-
+#### Botfuel
 EN1 Time OK | City OK
 EN2 Address OK
 EN3 Address OK
@@ -402,11 +389,13 @@ EN10 Money OK | Set (per month) NOT REC | City OK
 EN11 Quantity NOT OK | Time OK | City OK
 EN12 Quantity NOT OK | City OK | Time OK
 
---------------------------------------------------
 
-Spell-checking and Entity Extraction:
+## Spell-checking and Entity Extraction:
 
-EN1 - I am leaving tomorro at 5am for Lo Angeles
+### EN
+```
+I am leaving tomorro at 5am for Lo Angeles
+```
 Botfuel : Time OK
 Microsoft : Time OK
 Recast : Time NOT OK (5am)
@@ -416,7 +405,9 @@ Lex : Time OK
 Wit : NO
 IBM : NO
 
-EN2 - Yestrday at 8pm, I was eating 10 dlolars worth of chocolate
+```
+Yestrday at 8pm, I was eating 10 dlolars worth of chocolate
+```
 Botfuel : Time OK
 Microsoft : Time OK
 Recast : Time NOT OK (8pm)
@@ -426,7 +417,9 @@ Lex : Time NOT OK
 Wit : NO
 IBM : NO
 
-EN3 - I want to book two plane tickets to Madrid tomorow.
+```
+I want to book two plane tickets to Madrid tomorow.
+```
 Botfuel : OK
 Microsoft : OK
 Recast : NO (spell failed)
@@ -436,7 +429,9 @@ Snips : OK
 Wit : OK
 IBM : NO
 
-EN4 - At eight o’clck, I need someone to keep my dog.
+```
+At eight o’clck, I need someone to keep my dog.
+```
 Botfuel : OK
 Recast : NO
 Microsoft : OK
@@ -446,7 +441,9 @@ Snips : NO
 Wit : OK
 IBM : OK
 
-EN5 - Next moday, I won’t be home
+```
+Next moday, I won’t be home
+```
 Botfuel : NO (spell failed)
 Microsoft : OK
 Recast : NO
@@ -456,7 +453,9 @@ Snips : NO
 Wit : NO
 IBM : NO
 
-EN6 - I will need a car in two hoaurs
+```
+I will need a car in two hoaurs
+```
 Botfuel : NO (entity failed)
 Microsoft : OK
 Recast : NO
@@ -466,7 +465,9 @@ Snips : NO
 Wit : NO
 IBM : NO
 
-EN7 - I need to a plane ticket for the 3rd Agust,
+```
+I need to a plane ticket for the 3rd Agust
+```
 Botfuel : OK
 Microsoft : NO (spell failed)
 Recast : NO
@@ -476,7 +477,9 @@ Snips : NO
 Wit : OK
 IBM : NO
 
-EN8 - I leave the town next mounth
+```
+I leave the town next mounth
+```
 Botfuel : NO (spell failed)
 Microsoft : NO (entity failed)
 Recast : NO
@@ -486,7 +489,9 @@ Snips : NO
 Wit : NO
 IBM : NO
 
-EN9 - I won’t be there on satrday
+```
+I won’t be there on satrday
+```
 Botfuel : OK
 Microsoft : OK
 Recast : NO
@@ -496,7 +501,9 @@ Snips : NO
 Wit : NO
 IBM : NO
 
-EN10 - I will come back at nin o’clock
+```
+I will come back at nin o’clock
+```
 Botfuel : NO (spell failed)
 Microsoft : OK
 Recast : NO
@@ -506,70 +513,91 @@ Snips : NO
 Wit : NO
 IBM : NO
 
-FR1 - Je pars deman à 5h pour Los Angeles
+### FR
+```
+Je pars deman à 5h pour Los Angeles
+```
 Botfuel : OK
 Recast : NO
 API.AI : OK
 Wit : NO
 IBM :NO
 
-FR2 - Hir à 8h, j’ai mangé pour 10 dollars de chocolat
+```
+Hir à 8h, j’ai mangé pour 10 dollars de chocolat
+```
 Botfuel : NO (spell failed)
 Recast : NO
 API.AI : NO
 Wit : NO
 IBM :NO
 
-FR3 - Je voudrais réserver deux billets d’avion pour Madrid domain
+```
+Je voudrais réserver deux billets d’avion pour Madrid domain
+```
 Botfuel : NO (spell failed)
 Recast : NO
 API.AI : NO
 Wit : NO
 IBM :NO
 
-FR4 - À huit heuures, j’ai besoin de quelqu’un pour garder mon chien
+```
+À huit heuures, j’ai besoin de quelqu’un pour garder mon chien
+```
 Botfuel : OK
 Recast : NO
 API.AI : NO
 Wit : NO
 IBM : OK
 
-FR5 - Ludi prochain, je ne serai pas à la maison
+```
+Ludi prochain, je ne serai pas à la maison
+```
 Botfuel : NO (spell failed)
 Recast : NO
 API.AI : NO
 Wit : NO
 IBM :NO
 
-FR6 - j’aurai besoin d’une voiture dans deux heurs
+```
+j’aurai besoin d’une voiture dans deux heurs
+```
 Botfuel : NO (spell failed)
 Recast : NO
 API.AI : NO
 Wit : NO
 IBM :NO
 
-FR7 - j’ai besoin d’un ticket d’avion pour le 3 out
+```
+j’ai besoin d’un ticket d’avion pour le 3 out
+```
 Botfuel : NO (spell failed)
 Recast : NO
 API.AI : NO
 Wit : OK
 IBM :NO
 
-FR8 - Je quitte la ville le mois prochin
+```
+Je quitte la ville le mois prochin
+```
 Botfuel : OK
 Recast : NO
 API.AI : NO
 Wit : NO
 IBM :NO
 
-FR9 - Je ne serai pas là ce samdi
+```
+Je ne serai pas là ce samdi
+```
 Botfuel : OK
 Recast : NO
 API.AI : NO
 Wit : NO
 IBM :NO
 
-FR10 - Je reviendrai à neuf hures
+```
+Je reviendrai à neuf hures
+```
 Botfuel : OK
 Recast : NO
 API.AI : NO
