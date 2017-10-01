@@ -1,152 +1,7 @@
 # NLP benchmark test sentences and full results
 
-These are the results of the tests we conducted to write our NLP Benchmark article. Please note that, though the choice of sentences used is arbitrary, we have used common language entities to best fit all services.
-
-## Spell Checking
-
-### FR_2
-```
-Voiic la phrse a corryjer
-```
-* ~~BING~~ : `voici la phrase à corner`
-* BOTFUEL : `voici la phrase à corriger`
-* X SPELL : `Voici la phrase a corriger`
-
-```
-Je voayge a Pariss
-```
-* BING : `Je voyage a paris`
-* BOTFUEL : `Je voyage a paris`
-* X SPELL : `Je voyage a Paris`
-
-```
-Je veux parier sur un amtch amica Paris-Lyno
-```
-* ~~BING~~ : `Je veux parler sur un match amical Paris-lyon`
-* BOTFUEL : `Je veux parier sur un match amical Paris-lyon`
-* X SPELL : `Je veux parier sur un match amical Paris-Lyon`
-
-```
-Je vais avoir selemnet vintg qatre asn dnas sept annees
-```
-* BING : `Je vais avoir seulement vingt quatre ans dans sept annees`
-* BOTFUEL : `Je vais avoir seulement vingt quatre ans dans sept années`
-* X SPELL : `Je vais avoir seulement vingt quatre asn dnas sept annees`
-
-```
-ma carosserie est intacte
-```
-* ~~BING~~ : `ma carrosserie est intact`
-* BOTFUEL : `ma carrosserie est intacte`
-* X SPELL : `ma carrosserie est intacte`
-
-```
-je veux manaer ce poulet
-```
-* ~~BING~~ : `je veux manager ce poulet`
-* BOTFUEL : `je veux manger ce poulet`
-* X SPELL : `je veux manger ce poulet`
-
-```
-Domain, je mange des pâtes
-```
-* ~~BING~~: `domain, je mange des pâtes`
-* ~~BOTFUEL~~: `domaine, je mange des pâtes`
-* ~~X SPELL~~ : `Domain, je mange des pâtes`
-
-
-```
-Lontgemps, je me suis couché de bonne huere
-```
-* BING : `longtemps, je me suis couche de bonne heure`
-* BOTFUEL: `longtemps, je me suis couché de bonne heure`
-* X SPELL : `Longtemps, je me suis couché de bonne heure`
-
-```
-Ctete baguette coûte un uero
-```
-* ~~BING~~ : `Ctete baguette coûte un uero`
-* BOTFUEL: `cette baguette coûte un euro`
-* X SPELL : `Cette baguette coûte un euro`
-
-```
-J’ai perdu un milleir d’euros
-```
-* BING : `J’ai perdu un millier d’euros`
-* BOTFUEL: `J’ai perdu un millier d’euros`
-* X SPELL : `J’ai perdu un millier d’euros`
-
-### EN_2
-
-```
-hwo are yuo donig tonigth
-```
-* BING : `how are you doing tonight`
-* BOTFUEL : `how are you doing tonight`
-* X SPELL : `how are you doing tonight`
-
-```
-wheer have you bene all night
-```
-* BING : `where have you been all night`
-* BOTFUEL : `where have you been all night`
-* XSPELL : `where have you been all night`
-
-```
-why are yuo not here wiht us tongiht
-```
-* BING : `why are you not here with us tonight`
-* BOTFUEL : `why are you not here with us tonight`
-* X SPELL : `why are you not here with us tonight`
-
-```
-Wat are you gonan do
-```
-* BING : `what are you gonna do`
-* ~~BOTFUEL~~ : `Wat are you conan do`
-* X SPELL : `What are you gonna do`
-
-```
-I dont knwo anythign
-```
-* BING : `I don't know anything`
-* BOTFUEL : `I dont know anything`
-* X SPELL : `I don’t know anything`
-
-```
-I donot agre with yuo
-```
-* BING : `I do not agree with you`
-* ~~BOTFUEL~~ : `I donor are with you`
-* X SPELL : `I don’t agree with you`
-
-```
-I’ll leave aerlier today
-```
-* BING : `I’ll leave earlier today `
-* BOTFUEL : `I’ll leave earlier today`
-* X SPELL : `I’ll leave earlier today`
-
-```
-I’m very hnugry today
-```
-* BING : `I’m very hungry today `
-* BOTFUEL : `I’m very hungry today`
-* X SPELL : `I’m very hungry today`
-
-```
-I finihs work at 7pm
-```
-* BING : `I finish work at 7pm`
-* BOTFUEL : `I finish work at 7pm`
-* X SPELL : `I finish work at 7pm`
-
-```
-Where can i take a braekfast
-```
-* BING : `Where can i take a breakfast`
-* BOTFUEL : `Where can i take a breakfast`
-* X SPELL : `Where can i take a breakfast`
+These are the results of the tests we conducted in July 2017 to write our NLP Benchmark article.
+Please note that, though the choice of sentences used is arbitrary, we have used common language entities to best fit all services.
 
 ## Entity Extractor
 
@@ -389,6 +244,151 @@ Where can i take a braekfast
 11. Quantity NOT OK | Time OK | City OK
 12. Quantity NOT OK | City OK | Time OK
 
+## Spell Checking
+
+### FR_2
+```
+Voiic la phrse a corryjer
+```
+* ~~BING~~ : `voici la phrase à corner`
+* BOTFUEL : `voici la phrase à corriger`
+* X SPELL : `Voici la phrase a corriger`
+
+```
+Je voayge a Pariss
+```
+* BING : `Je voyage a paris`
+* BOTFUEL : `Je voyage a paris`
+* X SPELL : `Je voyage a Paris`
+
+```
+Je veux parier sur un amtch amica Paris-Lyno
+```
+* ~~BING~~ : `Je veux parler sur un match amical Paris-lyon`
+* BOTFUEL : `Je veux parier sur un match amical Paris-lyon`
+* X SPELL : `Je veux parier sur un match amical Paris-Lyon`
+
+```
+Je vais avoir selemnet vintg qatre asn dnas sept annees
+```
+* BING : `Je vais avoir seulement vingt quatre ans dans sept annees`
+* BOTFUEL : `Je vais avoir seulement vingt quatre ans dans sept années`
+* X SPELL : `Je vais avoir seulement vingt quatre asn dnas sept annees`
+
+```
+ma carosserie est intacte
+```
+* ~~BING~~ : `ma carrosserie est intact`
+* BOTFUEL : `ma carrosserie est intacte`
+* X SPELL : `ma carrosserie est intacte`
+
+```
+je veux manaer ce poulet
+```
+* ~~BING~~ : `je veux manager ce poulet`
+* BOTFUEL : `je veux manger ce poulet`
+* X SPELL : `je veux manger ce poulet`
+
+```
+Domain, je mange des pâtes
+```
+* ~~BING~~: `domain, je mange des pâtes`
+* ~~BOTFUEL~~: `domaine, je mange des pâtes`
+* ~~X SPELL~~ : `Domain, je mange des pâtes`
+
+
+```
+Lontgemps, je me suis couché de bonne huere
+```
+* BING : `longtemps, je me suis couche de bonne heure`
+* BOTFUEL: `longtemps, je me suis couché de bonne heure`
+* X SPELL : `Longtemps, je me suis couché de bonne heure`
+
+```
+Ctete baguette coûte un uero
+```
+* ~~BING~~ : `Ctete baguette coûte un uero`
+* BOTFUEL: `cette baguette coûte un euro`
+* X SPELL : `Cette baguette coûte un euro`
+
+```
+J’ai perdu un milleir d’euros
+```
+* BING : `J’ai perdu un millier d’euros`
+* BOTFUEL: `J’ai perdu un millier d’euros`
+* X SPELL : `J’ai perdu un millier d’euros`
+
+### EN_2
+
+```
+hwo are yuo donig tonigth
+```
+* BING : `how are you doing tonight`
+* BOTFUEL : `how are you doing tonight`
+* X SPELL : `how are you doing tonight`
+
+```
+wheer have you bene all night
+```
+* BING : `where have you been all night`
+* BOTFUEL : `where have you been all night`
+* XSPELL : `where have you been all night`
+
+```
+why are yuo not here wiht us tongiht
+```
+* BING : `why are you not here with us tonight`
+* BOTFUEL : `why are you not here with us tonight`
+* X SPELL : `why are you not here with us tonight`
+
+```
+Wat are you gonan do
+```
+* BING : `what are you gonna do`
+* ~~BOTFUEL~~ : `Wat are you conan do`
+* X SPELL : `What are you gonna do`
+
+```
+I dont knwo anythign
+```
+* BING : `I don't know anything`
+* BOTFUEL : `I dont know anything`
+* X SPELL : `I don’t know anything`
+
+```
+I donot agre with yuo
+```
+* BING : `I do not agree with you`
+* ~~BOTFUEL~~ : `I donor are with you`
+* X SPELL : `I don’t agree with you`
+
+```
+I’ll leave aerlier today
+```
+* BING : `I’ll leave earlier today `
+* BOTFUEL : `I’ll leave earlier today`
+* X SPELL : `I’ll leave earlier today`
+
+```
+I’m very hnugry today
+```
+* BING : `I’m very hungry today `
+* BOTFUEL : `I’m very hungry today`
+* X SPELL : `I’m very hungry today`
+
+```
+I finihs work at 7pm
+```
+* BING : `I finish work at 7pm`
+* BOTFUEL : `I finish work at 7pm`
+* X SPELL : `I finish work at 7pm`
+
+```
+Where can i take a braekfast
+```
+* BING : `Where can i take a breakfast`
+* BOTFUEL : `Where can i take a breakfast`
+* X SPELL : `Where can i take a breakfast`
 
 ## Spell-checking and Entity Extraction:
 
