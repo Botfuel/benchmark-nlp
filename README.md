@@ -603,3 +603,7 @@ Je reviendrai à neuf hures
 * API.AI : NO
 * Wit : NO
 * IBM : OK
+
+## License
+
+See the [LICENSE](LICENSE.md) file.
